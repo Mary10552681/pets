@@ -1,0 +1,717 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navtop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: whitesmoke;
+}
+body{
+    background-color: whitesmoke;
+    color: rgb(87, 86, 86);
+}
+.btnDone{
+    width: 100px;
+    background-color: whitesmoke;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+}
+@keyframes anim1 {
+    0%{
+        width: 35%;
+    }
+    50%{
+        width: 36%;
+        margin-top: -10px;
+    }
+    100%{
+        width: 35%;
+        
+    }
+}
+.items-center{
+    display: flex;
+    width: 100%;
+    align-items: center !important;
+}
+.hide-nav{
+    display: none;
+}
+.small-s{
+    display: none !important;
+}
+.small-l{
+    width: 100%;
+    display: block !important;
+}
+.small-l li{
+    width: 100%;
+}
+.main{
+    padding-top: 70px;
+}
+.mainHight{
+    height: 90vh;
+    overflow: scroll;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(90, 173, 12);
+    border-radius: 10px;
+    width: 100%;
+    margin-left: auto;
+    color: rgb(243, 241, 234);
+    margin-right: auto;
+    /* box-shadow: 1px 1px 1px gray; */
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    justify-content: space-around;
+
+}
+.navbar ul {
+    display: flex;
+    gap: 40px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 2px 3px 6px gray;
+    background-color: white;
+}
+.card-body{
+    height: 65%;
+    background-color: rgb(184, 182, 182);
+}
+.home-sec{
+    height: 20vh !important;
+}
+.card-footer{
+    height: 35%;
+    padding: 10px;
+}
+.main-section{
+    height: 70vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-section h1{
+    font-weight: 300;
+    padding: 10px;
+    font-size: xx-large;
+}
+.conatiner-1{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.form-det{
+    box-shadow: 0 !important;
+}
+
+.bg-white div{
+    width: 90%;
+}
+.main-section p{
+    color: gray;
+}
+.title-b{
+    font-weight: 300;
+    padding: 10px;
+    font-size: xx-large;
+}
+.form-det{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    /* box-shadow: 3px 4px 5px gray; */
+    background-color:white;
+}
+.form-det div{
+    width: 100%;
+    /* background-color: red; */
+}
+.form-1{
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 4px 5px gray;
+    background-color: white;
+}
+.form-det input{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.form-det button{
+    background-color: dodgerblue;
+    width: 40%;
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.pop-container{
+    position: fixed;
+    background: #3345;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup{
+    background-color: white;
+    border-radius: 10px;
+    width: 35%;
+    padding: 10px;
+    animation: anim1 1s ease;
+    box-shadow: 1px 1px 5px gray;
+}
+.popup div{
+    width: 100%;
+}
+.menu-container{
+    width: 80%;
+    right: 0 !important;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 25px;
+    left: 10%;
+    transition: 0.5s all ease;
+    box-shadow: 1px 1px 4px gray;
+    height: auto;
+    background-color: white;
+
+}
+.menu-ul{
+    padding: 10px;
+    display: block !important;
+    color: gray;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+.auth-section{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.auth-section input{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-bottom: 3px solid rgb(90, 173, 12);
+    border-radius: 5px;
+}
+.auth-section div{
+    padding-top: 10px;
+}
+
+.auth-section1 input{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    border-top: 3px solid rgb(90, 173, 12);
+}
+.btnReg{
+    width: 100%;
+}
+.auth-section1 div{
+    padding-top: 10px;
+    width: 100%;
+    margin: 10px;
+}
+.flex{
+    display: flex;
+}
+.checkbox{
+    width: 30px !important;
+}
+.auth-section button{
+    background-color: rgb(90, 173, 12);
+    width: 40%;
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.divan{
+    color: red;
+}
+.auth-section1 button{
+    background-color: rgb(90, 173, 12);
+    width: 100%;
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.auth-section form{
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    border-top-right-radius: 4px;
+    border-top: 7px solid rgb(90, 173, 12);
+    box-shadow: 1px 3px 3px gray;
+}
+.auth-section1{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+.auth-section1 form{
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+    border-top: 7px solid rgb(90, 173, 12);
+    display: flex;
+    box-shadow: 1px 3px 3px gray;
+}
+.btnMenu{
+    width: 60px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgb(90, 173, 12);
+}
+.btnMenu:hover{
+   background-color:rgb(102, 151, 100);
+}
+.btnMenu div{
+    height: 3px;
+    width: 80%;
+    margin: 5px;
+    background-color: rgb(77, 74, 74);
+}
+.menu-ul li{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(237, 237, 243, 0.333);
+}
+.menu-ul li a{
+    text-decoration: none;
+    color: gray;
+}
+.menu-ul li:hover{
+    background-color: rgba(209, 209, 223, 0.333);
+}
+
+.hide-pop{
+    display: none !important;
+}
+.show-pop{
+    display: flex;
+}
+.form-1 input{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.btnCancel{
+    background-color: brown !important;
+}
+.form-1 button{
+    background-color: dodgerblue;
+    width: 40%;
+    padding: 6px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.form-1 textarea{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.main-section button{
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: gray;
+}
+.main-section button:hover{
+    background-color: rgb(207, 204, 204);
+    color: rgb(77, 74, 74);
+}
+.top-title{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.top-title strong{
+    font-weight: 100;
+    font-size: 20px;
+    border-bottom: 1px solid gray; 
+}
+
+.card-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img{
+    width:100%;
+    height: 100%;
+}
+.btnChat{
+    padding: 10px;
+}
+.h9{
+    width: 50%;
+    display: flex;
+}
+.h9 div{
+    width: 100%;
+}
+.h91{
+    width: 50%;
+    padding: 30px;
+}
+
+.formB input{
+    width: 100%;
+    padding: 6px;
+    margin: 10px;
+}
+.formB textarea{
+    margin: 10px;
+    height: 16vh;
+    width: 100%;
+}
+.formB button{
+    width: 90%;
+    padding: 6px;
+    border:  1px solid;
+    border-radius: 5px;
+    background-color: rgb(90, 173, 12);
+    color: white;
+}
+.btnAdopt{
+    color: rgb(82, 80, 80);
+    border: none;
+    margin-top: 10px;
+    width: 50%;
+    cursor: pointer;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color:rgb(90, 173, 12);
+}
+.about-container{
+    display: flex;
+    align-items: center;
+}
+.about-textDiv{
+    padding: 10px;
+    width: 50%;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.about-imgDiv{
+    width: 50%;
+    padding: 10px;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.about-us{
+    border-top: 3px solid rgb(90, 173, 12);
+    background-color: white;
+    border-top-right-radius: 20px;
+}
+.footer{
+    background-color: rgb(90, 173, 12);
+    height: 25vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linksDiv ul li a{
+    text-decoration: none;
+    color: rgb(226, 219, 211);
+}
+.accMain{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.detView{
+    width: 40%;
+    padding: 30px;
+}
+.detView div{
+    margin-bottom: 10px;
+}
+.detView small{
+    color: gray;
+}
+.activityView{
+    width: 60%;
+}
+.table-View2{
+    width: 100%;
+    overflow: scroll;
+    height: 70vh;
+}
+.table-View2::-webkit-scrollbar{
+    display: none;
+}
+.table-View2 table{
+    width: 100%;
+    height: auto;
+   
+    background-color: white;
+}
+.table-View2 table thead{
+    background-color: rgb(90, 173, 12);
+}
+.table-View2 table thead th{
+    text-align: start;
+    color: rgb(231, 219, 204);
+    border-top-left-radius: 5px;
+    padding: 7px;
+}
+.table-View2 table tbody td{
+    padding: 7px;
+    border-bottom: 1px dotted gray;
+}
+.flexDiv{
+    display: flex;
+}
+.box{
+    width: 50%;
+    padding: 20px;
+}
+.popBlack{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #6685;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pop-up-div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.pop-up-div button{
+    background-color: rgb(90, 173, 12);
+    width: 90%;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+.imgCheck{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    animation: checkNim 1s ease;
+    transition: all ease 0.5s;
+}
+.detDed{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(90, 173, 12);
+    background-color: white;
+}
+.card-footer b{
+    color: gray;
+}
+.btnDelete{
+    background-color: rgb(90, 173, 12);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px;
+    width: 100%;
+    cursor: pointer;
+}
+.btnDelete:hover{
+    color: red;
+}
+.searchDiv{
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.searchDiv input{
+    padding: 10px;
+    width: 80%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid rgb(90, 173, 12);
+}
+.searchDiv button{
+    padding: 10px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid rgb(90, 173, 12);
+    background-color: rgb(90, 173, 12);
+    color: white;
+}
+@keyframes checkNim {
+    0%{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+    50%{
+        width: 70px;
+        height: 70px;
+        padding: 2px;
+    }
+    100%{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+    }
+}
+
+.sosDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.iconDiv{
+    width: 25px !important;
+    height: 25px;
+}
+
+@media only screen and (max-width:660px) {
+    .navbar{
+        width: 100%;
+        border-radius: 0;
+        justify-content: space-between;
+    }
+    .main-section button{
+        width: 80%;
+    }
+    .about-container{
+        display: block;
+    }
+    .linksDiv{
+        display: none;
+    }
+    .about-us{
+        width: 100%;
+        background-color: white;
+    }
+    .about-textDiv{
+        width: 100%;
+    }
+    .about-imgDiv{
+        width: 100%;
+    }
+    .main-section{
+        height: 70vh;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-1{
+        width: 100%;
+    }
+    .conatiner-1{
+        height: auto;
+    }
+    .form-det{
+        width: 100%;
+    }
+    .menu-container{
+        width: 98%;
+        left: 1%;
+    }
+    .small-s{
+        width: 100%;
+        display: block !important;
+    }
+
+    .small-s li{
+        width: 100%;
+    }
+    .small-l{
+        display: none !important;
+    }
+}

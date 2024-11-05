@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sideNav{
+    background-color: rgb(90, 173, 12);
+    height: 100vh;
+    width: 15%;
+}
+body{
+    background-color: whitesmoke;
+}
+.tBar{
+    padding: 10px;
+}
+.btnDelete{
+    background-color: rgb(90, 173, 12);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px;
+    width: 100%;
+    cursor: pointer;
+}
+.btnEdit{
+    background-color: rgb(105, 102, 98);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px;
+    width: 100%;
+    cursor: pointer;
+}
+.tBar h1{
+    color: white;
+    margin-bottom: 10px;
+}
+.sideContainer{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sideContainer a{
+    text-decoration: none;
+}
+.adLinkDiv small{
+    color: white;
+    font-size: 20px;
+}
+.adLinkDiv{
+    width: 100% !important;
+    margin-bottom: 20px;
+    transition: ease all 0.5s;
+}
+.adLinkDiv:hover{
+    border-bottom: 1px solid whitesmoke;
+    transition: ease all 0.5s;
+}
+.a1{
+    text-decoration: none;
+}
+.a1 div small{
+    font-size: 15px;
+}
+.admin-main{
+    display: flex;
+}
+.admin-main-container{
+    width: 85%;
+    height: 100vh;
+}
+.main-nav{
+    background-color: rgb(90, 173, 12);
+    width: 99%;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.add-form{
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.add-form1{
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 4px rgb(90, 173, 12) solid;
+    border-radius: 10px;
+    border-top: 4px solid rgb(90, 173, 12);
+    margin-top: 80px !important;
+}
+.btnSubmit{
+    background-color: rgb(90, 173, 12) !important;
+}
+.add-form1 div{
+    padding: 5px;
+}
+
+.add-form1 div input{
+    width: 100%;
+    padding: 7px;
+}
+
+.add-form1 div button{
+    background-color: rgb(58, 60, 63);
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.add-form1 div textarea{
+    width: 100%;
+    padding: 7px;
+}
+.add-form1 div{
+    padding: 5px;
+}
+.add-form1 div input{
+    width: 100%;
+    padding: 7px;
+}
+.add-form1 div button{
+    background-color: rgb(58, 60, 63);
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.add-form1 div textarea{
+    width: 100%;
+    padding: 7px;
+}
+.add-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table-View{
+    padding: 20px;
+    height: 85vh;
+    overflow: scroll;
+}
+.table-View::-webkit-scrollbar{
+    display: none;
+}
+.table-View table{
+    width: 100%;
+    background-color: white;
+}
+.table-View table thead{
+    background-color: rgb(90, 173, 12);
+}
+.table-View table thead th{
+   color: white;
+   text-align: start;
+   padding: 5px;
+}
+.table-View table tbody tr td{
+   padding: 10px;
+   border-bottom: 1px dotted gray;
+}
+.bot-report{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    padding-right: 50px;
+    justify-content: end;
+}
+.top-dash{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+    justify-content: space-around;
+}
+.card{
+    color: rgb(58, 60, 63);
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border-bottom: 4px solid rgb(90, 173, 12);
+}
+.dash-main{
+    display: flex;
+}
+.petsDiv{
+    width: 70%;
+    padding: 10px;
+    color: rgb(58, 60, 63);
+}
+.table-View1{
+    padding: 20px;
+    height: 70vh;
+    overflow: scroll;
+}
+.table-View1::-webkit-scrollbar{
+    display: none;
+}
+.table-View1 table{
+    width: 100%;
+    background-color: white;
+}
+.table-View1 table thead{
+    background-color: rgb(90, 173, 12);
+}
+.table-View1 table thead th{
+   color: white;
+   text-align: start;
+   padding: 5px;
+}
+.table-View1 table tbody tr td{
+   padding: 10px;
+   border-bottom: 1px dotted gray;
+}
+.customerDiv{
+    background-color: white;
+    padding: 10px;
+    width: 25%;
+    margin-top: 30px;
+    border-top: 3px solid rgb(58, 60, 63);
+    border-bottom: 3px solid rgb(58, 60, 63);
+    border-radius: 10px;
+}
+.customer-view{
+    background-color: white;
+    padding: 10px;
+}
+ol{
+    padding: 10px;
+    list-style: none;
+}
+.custDiv{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(58, 60, 63);
+    border-bottom: 3px solid rgb(90, 173, 12);
+    background-color: whitesmoke;
+}
+.custDiv button{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+ol li a{
+    color: rgb(58, 60, 63);
+    text-decoration: none;
+}
+.ol-div{
+    height: 50vh;
+    overflow: scroll;
+}
+.ol-div::-webkit-scrollbar{
+    display: none;
+}
+.editForm{
+    border-top: 4px rgb(90, 173, 12) solid;
+}
+.editForm div div div{
+    margin: 10px;
+    width: 100%;
+    color: gray;
+}
+.add-form{
+    border-top: 4px solid rgb(108, 190, 97);
+}
+.add-form div{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.add-form button{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btnRemove{
+    background: tan;
+}
+.add-form div input{
+    width: 100%;
+    padding: 10px;
+}
+.editForm div div div button{
+    width: 80%;
+    color: gray;
+    padding: 7px;
+    background-color: rgb(90, 173, 12);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.editForm div div div button:hover{
+    background-color: rgb(124, 110, 91);
+}
+.editForm div div div input{
+    width: 95%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid rgb(90, 173, 12);
+}
+.editForm div div div textarea{
+    width: 95%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid rgb(90, 173, 12);
+}
+.messageBox{
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+    color: green;
+    padding: 10px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 90;
+    left: 38%;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    bottom: 10%;
+    box-shadow: 1px 1px 1px gray;
+}
+.black-scale{
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background: #6543;
+}
+.popup-scale{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+
+}
+.btnDel{
+    margin: 10px;
+    width: 70%;
+    background-color: rgb(90, 173, 12);
+    color: red;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+}
+.btnCancel{
+    margin: 10px;
+    width: 70%;
+    background-color: rgb(90, 173, 12);
+    color: rgb(108, 190, 97);
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+}
+.flexdiv{
+    display: flex;
+}
+.dn{
+    display: none;
+}
+.db{
+    display: block;
+    width: 100% !important;
+}
+.searchDiv{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+.searchDiv input{
+    width: 96%;
+    border: 1px solid rgb(90, 173, 12);
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.searchDiv button{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(90, 173, 12);
+    background-color: rgb(90, 173, 12);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
